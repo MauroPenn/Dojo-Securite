@@ -1,0 +1,12 @@
+{
+ "name":"Dojo Détection des Risques Sécurité",
+ "short_name":"Dojo Sécurité",
+ "description":"Prototype d'évaluation tactile des risques sécurité dans trois zones industrielles.",
+ "lang":"fr",
+ "start_url":"./index.html",
+ "scope":"./",
+ "display":"standalone",
+ "background_color":"#f3f7fb",
+ "theme_color":"#0a417c",
+ "icons":[{"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

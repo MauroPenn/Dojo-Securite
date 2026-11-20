@@ -1,0 +1,40 @@
+DOJO SÉCURITÉ – PROTOTYPE V1 (20 novembre 2026)
+
+Fichiers prêts à déposer à la racine du dépôt GitHub Dojo-Securite.
+
+1. Ouvrir GitHub > dépôt Dojo-Securite > Add file > Upload files.
+2. Extraire ce ZIP sur votre ordinateur, sélectionner TOUS les éléments à l'intérieur
+   (index.html, sw.js, manifest.webmanifest, LISEZ-MOI.txt, icon.svg
+   et les 3 photographies .webp).
+   Ne PAS déposer le ZIP seul : GitHub Pages ne décompresse pas automatiquement.
+3. Cliquer sur Commit changes.
+4. Dans Settings > Pages : Build and deployment / Source : Deploy from a branch.
+   Branch : main / Folder : /(root) > Save.
+5. Après publication, l'adresse attendue est :
+   https://mauropenn.github.io/Dojo-Securite/
+   (l'adresse ne fonctionnera qu'après activation et déploiement de GitHub Pages).
+
+VERSION V1 :
+- 3 photos d'origine (issues du fichier transmis)
+- Interface tablette (paysage recommandé)
+- Mode évaluation : sélectionner les endroits suspects sans révéler les réponses
+- Navigation entre les 3 zones, retour et suppression des marqueurs
+- Zoom tactile via bouton : + / - et défilement
+- Correction automatique : anomalies trouvées, oubliées, sélections incorrectes
+- Bilan global et par zone, revues et explications
+- Mode démonstration avec affichage optionnel des anomalies
+- Traductions d'interface FR / EN / UKR / DARI ; brouillons à valider
+- Fonctionnement hors ligne après premier chargement réussi si le navigateur
+  a bien installé le service worker et mis les fichiers en cache
+
+IMPORTANT :
+- Les risques indiqués sont des PROPOSITIONS PÉDAGOGIQUES DE DÉMONSTRATION.
+  Ils ne constituent PAS une validation des dangers du poste ni de la conformité
+  de l'atelier. Les règles réelles du site déterminent ce qui est une anomalie.
+- La correction de sécurité et toutes les traductions doivent être relues et
+  validées par un responsable sécurité et des personnes bilingues compétentes.
+- N'envoyez pas de vraies photos confidentielles ni de données d'apprenants
+  sur un dépôt public / GitHub Pages public.
+- Cette version n'enregistre pas de données personnelles ni d'historique.
+- Pour la première démo, on utilisera la tablette personnelle et ces seules
+  images fictives. Pas d'hébergement d'entreprise ni de synchronisation.
