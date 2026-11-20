@@ -1,4 +1,19 @@
-DOJO SÉCURITÉ – PROTOTYPE V1 (20 novembre 2026)
+DOJO SÉCURITÉ – PROTOTYPE V2 CORRECTIVE (20 novembre 2026)
+
+CORRECTION V2 :
+- Correction de la taille du pictogramme « Information » sous l’écran d’accueil.
+- Encadrement de la taille de tous les pictogrammes SVG, y compris ceux du bilan.
+- Mise à jour du cache pour éviter que la tablette conserve l’ancienne V1.
+
+MISE À JOUR D'UN DÉPÔT EXISTANT :
+- Aller dans le dépôt GitHub Dojo-Securite.
+- Add file > Upload files.
+- Déposer les 8 fichiers extraits du ZIP V2 (pas le ZIP).
+- Si GitHub affiche les fichiers existants remplacés, c'est normal.
+- Cliquer sur Commit changes.
+- GitHub Pages se republie automatiquement; ne pas retourner régler Pages.
+- Actualiser le site. Si l’ancienne V1 persiste, fermer puis rouvrir
+  l’onglet ou vider les données du site si nécessaire.
 
 Fichiers prêts à déposer à la racine du dépôt GitHub Dojo-Securite.
 
@@ -14,7 +29,7 @@ Fichiers prêts à déposer à la racine du dépôt GitHub Dojo-Securite.
    https://mauropenn.github.io/Dojo-Securite/
    (l'adresse ne fonctionnera qu'après activation et déploiement de GitHub Pages).
 
-VERSION V1 :
+VERSION V2 :
 - 3 photos d'origine (issues du fichier transmis)
 - Interface tablette (paysage recommandé)
 - Mode évaluation : sélectionner les endroits suspects sans révéler les réponses
