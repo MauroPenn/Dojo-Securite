@@ -1,4 +1,4 @@
-const CACHE='dojo-securite-v4-8-rex-fictif-20261123';
+const CACHE='dojo-securite-v4-8-rex-seulement-si-oubli-20261123';
 const ASSETS=['./','./index.html','./manifest.webmanifest','./icon.svg','./zone-1.webp','./zone-2.webp','./zone-3.webp'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('dojo-securite-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
